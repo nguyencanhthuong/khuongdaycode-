@@ -6,7 +6,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // Định nghĩa route /data với phương thức POST
-app.post('/data', (req, res) => {
+app.post('/', (req, res) => {
   const requestBody = req.body;
 
   // Log request body ra console
