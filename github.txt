@@ -1,0 +1,10 @@
+npm init -y : để chỉ rằng cái project này sử dụng node js và tạo ra file quản lí project package.json 
+npm i express : express là khung của web (framework để xây dựng backend của node js )
+
+git init  : khởi tạo 1 project git 
+tạo file .gitignore : loại bỏ các folder và các file khỏi danh sách theo dõi của git 
+git add . : nó sẽ thêm những thay đổi ở code và lưu lại 
+git commit -m "" : comment ở trong những cais mình sửa 
+git branch -M main : chuyển nhánh làm việc thành nhánh main 
+git remote add origin https://...../.git : để liên kết local repo với remote repo 
+git push -u origin main : đẩy commit từ nhánh main ở local repo lên trang web 
