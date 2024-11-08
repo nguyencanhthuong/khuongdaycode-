@@ -35,7 +35,7 @@
 const cors = require("cors");
 const app = require('./app');
 
-const port = 3000;
+const port = 3033;
 
 const app = express();
 
